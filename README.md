@@ -1,0 +1,1 @@
+This Will be a clone of the google homepage to help me develop my front end skills while taking The Odin Project course. During this project I will be useing Chrome developer tools and basic html and css.
