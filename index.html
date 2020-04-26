@@ -5,17 +5,37 @@
     }
 
     #google_logo {
+        display: block;
+        margin: 200px auto;
         position: relative;
-        align-items: center;
     }
+
+    #search_bar {
+        display: block;
+        margin: auto;
+    }
+
+    .button {
+        display: inline-block;
+        margin: auto;
+        min-width: 10px;
+        text-align: center;
+        position: relative;
+        border-radius: 4px;
+        box-shadow: none;
+    }
+
+    .button:hover {}
 </style>
 <html>
 
 <img id="google_logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
     alt="The Google Logo">
-<button>
+<form id="search_bar" action="/search">
 
-</button>
+</form>
+<input id="search_button" class="button" value="Google Search" aria-label="Google Search">
+<input id="lucky_button" class="button" value="Feeling Lucky" aria-label="I'm Feeling Lucky">
 
 <body>
 
